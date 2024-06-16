@@ -1,4 +1,4 @@
-// swift-tools-version: 5.10
+// swift-tools-version:5.10
 
 import PackageDescription
 
@@ -11,7 +11,9 @@ let package = Package(
     products: [
         .library(
             name: "Replicate",
-            targets: ["Replicate"]
+            targets: [
+                "Replicate"
+            ]
         ),
     ],
     dependencies: [
@@ -32,5 +34,5 @@ let package = Package(
         ),
     ],
     swiftLanguageVersions: [.v5]
-
+    
 )
